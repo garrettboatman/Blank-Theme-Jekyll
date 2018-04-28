@@ -29,4 +29,7 @@ compress_html:
     envs: [local]
   startings: [html, head, body]
 
+# ブログ記事設定
+paginate: 5
+
 exclude: [.scss, README.md, node_modules, gruntfile.js, package.json, Gemfile, Gemfile.lock, memo.steplog]
