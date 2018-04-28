@@ -1,8 +1,20 @@
-# Blank Theme - Jekyll
-An almost empty "starter theme" for Jekyll projects.
+# Jekyllブランクテーマの日本ローカライズ版
 
-Most themes I see say "starter theme", but they're filled with stupid SASS grids and shit. I made this as the lowest common denominator for almost all developers. 
+[Blank-Theme-Jekyll](https://github.com/garrettboatman/Blank-Theme-Jekyll)の日本ローカライズ版です。
 
-It's set up for SASS, meta tags, favicons, a home page, etc. Everything else is up to you.
+Jekyllのためのブランクテンプレートです。
 
-Now start building some dope-ass shit, playboy.
+- 日本語対応
+- HTML圧縮をテンプレート使用方式に変更
+- SNSアカウントを持っている場合のみOGタグを出力するように変更
+- CSS/JSキャッシュクリア用の記述を追加
+- 開発環境用ファイルを追加（開発環境ではCSSをminifyせずネストして表示する、等）
+- GoogleAnalyticsコード設置用ファイルを追加
+- ブラウザCSSリセットを追加
+- mt10など、よく使うCSSを追加
+
+## 開発環境ファイルを参照してのserve
+JEKYLL_ENV=development bundle exec jekyll serve --config "_config.yml,_config_dev.yml" --watch
+
+## 本番環境にアップロードするためのbuild
+JEKYLL_ENV=production bundle exec jekyll build --watch
