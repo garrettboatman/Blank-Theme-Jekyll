@@ -1,0 +1,23 @@
+/*
+  サイト全体のレイアウト
+*/
+
+@import url(https://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
+html {
+  font-size: 62.5%;
+  line-height: 150%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Noto Sans Japanese", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, Meiryo, sans-serif;
+  font-size: 1.6rem;
+  line-height: 2;
+}
+
+@media screen and (min-width: 768px) {
+  a img:hover {
+    opacity: 0.6;
+    transition: 0.5s;
+  }
+}
