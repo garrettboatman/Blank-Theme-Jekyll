@@ -4,6 +4,7 @@
 title: "サイト名を入力します"
 excerpt: "meta descriptionを入力します"
 url: "https://yourdomain.com" # サイトURL (OGタグ出力のため)
+timezone: Asia/Tokyo date
 
 # Social
 # socialimg: /img/common/og_default.png
