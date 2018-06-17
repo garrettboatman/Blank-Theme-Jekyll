@@ -6,8 +6,8 @@
 <meta name="description" content="{% if page.excerpt %}{{page.excerpt}}{% else %}{{site.excerpt}}{% endif %}">
 {% if site.facebook %}
   <!-- Facebook -->
-  <meta property="fb:app_id" content="{{ site.facebook_appid }}" />
-  <meta property="og:type" content="website"/>
+  <meta property="fb:app_id" content="{{ site.facebook_appid }}">
+  <meta property="og:type" content="website">
   <meta property="og:title" content="{% if page.title %}{{page.title}} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
   <meta property="og:description" content="{% if page.excerpt %}{{page.excerpt}}{% else %}{{ site.excerpt }}{% endif %}">
   <meta property="og:image" content="{% if page.image %}{{site.url}}{{page.image}}{% else %}{{site.url}}{{site.socialimg}}{% endif %}">
