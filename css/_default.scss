@@ -2,15 +2,8 @@
   サイト全体のレイアウト
 */
 
-html {
-  font-size: 62.5%;
-  line-height: 150%;
-}
-
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
-  font-size: 1.6rem;
-  line-height: 2;
+  font-family: sans-serif;
 }
 
 @media screen and (min-width: 768px) {
