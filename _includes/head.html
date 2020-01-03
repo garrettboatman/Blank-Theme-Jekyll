@@ -1,13 +1,14 @@
 <head>
-<meta name="viewport" content="width=device-width,user-scalable=yes,maximum-scale=1">
+{% include analytics.html %}
+<meta name="viewport" content="width=device-width">
 <meta charset="UTF-8">
 
 <title>{% if page.title %}{{page.title}} | {{ site.title }} {% else %}{{ site.title }}{% endif %}</title>
 <meta name="description" content="{% if page.excerpt %}{{page.excerpt}}{% else %}{{site.excerpt}}{% endif %}">
 {% if site.facebook %}
   <!-- Facebook -->
-  <meta property="fb:app_id" content="{{ site.facebook_appid }}" />
-  <meta property="og:type" content="website"/>
+  <meta property="fb:app_id" content="{{ site.facebook_appid }}">
+  <meta property="og:type" content="website">
   <meta property="og:title" content="{% if page.title %}{{page.title}} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
   <meta property="og:description" content="{% if page.excerpt %}{{page.excerpt}}{% else %}{{ site.excerpt }}{% endif %}">
   <meta property="og:image" content="{% if page.image %}{{site.url}}{{page.image}}{% else %}{{site.url}}{{site.socialimg}}{% endif %}">
@@ -24,5 +25,5 @@
   <meta property="twitter:image" content="{% if page.image %}{{site.url}}{{page.image}}{% else %}{{site.url}}{{site.socialimg}}{% endif %}">
   <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
 {% endif %}
-<link rel="stylesheet" href="{{site.dir_css}}style.css?rev={{site.time | date: '%s%N'}}" type="text/css">
+<link rel="stylesheet" href="{{site.dir_css}}style.css" type="text/css">
 </head>
