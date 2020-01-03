@@ -19,7 +19,7 @@ dir_img: "/img/"
 
 sass:
   sass_dir: css
-  style: :compressed
+  style: compressed
 
 ## HTML圧縮
 compress_html:
@@ -32,4 +32,4 @@ compress_html:
 # ブログ記事設定
 paginate: 5
 
-exclude: [.scss, README.md, node_modules, gruntfile.js, package.json, Gemfile, Gemfile.lock, memo.steplog]
+exclude: [.scss, README.md, node_modules, gruntfile.js, package.json, Gemfile, Gemfile.lock]
